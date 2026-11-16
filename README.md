@@ -1,21 +1,24 @@
 # Myocardial Edema T1 Research Tool | 心肌水肿 T1 参数研究工具
 
-## English
+## Purpose
 
-A bilingual web tool for research on myocardial edema using cardiac MRI mapping data. Module 1 explores edema assessment using native T1 and/or extracellular volume (ECV). Module 2 explores the native T1–T2 relationship and fits a local model using paired measurements.
+This bilingual web tool was designed to help cardiac MRI researchers explore how native T1 and extracellular volume (ECV) measurements can inform the assessment of myocardial edema, and how native T1 relates to T2 in edematous myocardium.
 
-**To run locally**, download the repository as a ZIP, extract it, and open `index.html` in a browser. The home page opens in English. Select **中文** in the navigation to switch to Chinese. Calculations run in the browser. No server, installation, or build step is required. See the [instructions and references](about_en.html) for details.
+- **Module 1: Research assessment of myocardial edema.** Applies study-derived cutoffs to native T1 and/or ECV measurements, taking into account the interstitial fibrosis background and late gadolinium enhancement (LGE) status.
+- **Module 2: Native T1–T2 relationship.** Compares T2 estimates derived from native T1 with measured T2 and lets researchers fit a local model using paired measurements.
 
-**Research use only.** The tool is not intended for clinical diagnosis or treatment decisions.
+For research use only. [Study methods and tool notes](about_en.html)
 
-The repository is private during preparation, and GitHub Pages is not enabled.
+## 设计用途
 
-## 中文
+本工具面向心脏磁共振研究，用于探索原生 T1 和细胞外容积分数（ECV）在心肌水肿评估中的应用，并观察水肿心肌中原生 T1 与 T2 的关系。
 
-这是一个用于心脏磁共振参数研究的中英双语网页工具。模块 1 使用原生 T1 和／或细胞外容积分数（ECV）辅助评估心肌水肿。模块 2 用于观察原生 T1 与 T2 的关系，并使用成对测量数据拟合本地模型。
+- **模块 1：心肌水肿研究评估。** 根据间质纤维化背景及钆对比剂延迟强化（LGE）状态，应用研究阈值解读原生 T1 和／或 ECV 测量结果。
+- **模块 2：原生 T1 与 T2 的关系。** 比较由原生 T1 估算的 T2 与实测 T2，并支持使用成对测量数据拟合本地模型。
 
-**本地使用**：下载仓库 ZIP 并解压，在浏览器中打开 `index.html`。首页默认显示英文，可点击顶部的 **中文** 切换。计算在浏览器中完成，无需安装依赖、启动服务器或构建。详见[使用须知与参考文献](about.html)。
+仅供研究使用。[研究方法与工具说明](about.html)
 
-**仅供研究使用，不用于临床诊断或治疗决策。**
+## References | 参考文献
 
-当前仓库处于私有准备阶段，尚未启用 GitHub Pages。
+1. Qin LY, Duan SH, Zhou F, Chen F, Li TR, Dong WH, Yang XL, Lu MJ, Li JH. *T1 Mapping Improves Detection Accuracy of Myocardial Edema.* Manuscript under review, 2026.
+2. *Beyond 15 mm: towards a new personalised, AI-measured definition of hypertrophic cardiomyopathy using an age-, sex- and body surface area-adjusted approach.* Heart. 2023;109(Suppl 1):A3–A4. [Abstract](https://heart.bmj.com/content/109/Suppl_1/A3.abstract)
