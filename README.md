@@ -20,5 +20,4 @@ For research use only. [Study methods and tool notes](about_en.html)
 
 ## References | 参考文献
 
-1. Qin LY, Duan SH, Zhou F, Chen F, Li TR, Dong WH, Yang XL, Lu MJ, Li JH. *T1 Mapping Improves Detection Accuracy of Myocardial Edema.* Manuscript under review, 2026.
-2. *Beyond 15 mm: towards a new personalised, AI-measured definition of hypertrophic cardiomyopathy using an age-, sex- and body surface area-adjusted approach.* Heart. 2023;109(Suppl 1):A3–A4. [Abstract](https://heart.bmj.com/content/109/Suppl_1/A3.abstract)
+Qin LY, Duan SH, Zhou F, Chen F, Li TR, Dong WH, Yang XL, Lu MJ, Li JH. *T1 Mapping Improves Detection Accuracy of Myocardial Edema.* Manuscript under review, 2026.
